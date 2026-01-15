@@ -27,23 +27,23 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
     },
   ];
 
-  const testimonials = [
-    {
-      quote: "Tanstrat's insights were transformative. Their team didn't just provide a plan; they embedded themselves with our leaders to ensure it was executed flawlessly. The results exceeded all our expectations.",
-      name: 'Sarah Jennings',
-      company: 'CEO, Innovate Corp',
-    },
-    {
-      quote: "The digital transformation roadmap they developed was both ambitious and practical. We're now more agile, data-driven, and customer-focused than ever before. A truly invaluable partnership.",
-      name: 'Michael Chen',
-      company: 'CTO, Future Systems Inc.',
-    },
-    {
-      quote: "Navigating the complex compliance landscape was our biggest challenge. Tanstrat provided the clarity and strategic guidance we needed to not only meet but exceed regulatory requirements.",
-      name: 'David Rodriguez',
-      company: 'Head of Risk, Global Finance Group',
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     quote: "Tanstrat's insights were transformative. Their team didn't just provide a plan; they embedded themselves with our leaders to ensure it was executed flawlessly. The results exceeded all our expectations.",
+  //     name: 'Sarah Jennings',
+  //     company: 'CEO, Innovate Corp',
+  //   },
+  //   {
+  //     quote: "The digital transformation roadmap they developed was both ambitious and practical. We're now more agile, data-driven, and customer-focused than ever before. A truly invaluable partnership.",
+  //     name: 'Michael Chen',
+  //     company: 'CTO, Future Systems Inc.',
+  //   },
+  //   {
+  //     quote: "Navigating the complex compliance landscape was our biggest challenge. Tanstrat provided the clarity and strategic guidance we needed to not only meet but exceed regulatory requirements.",
+  //     name: 'David Rodriguez',
+  //     company: 'Head of Risk, Global Finance Group',
+  //   },
+  // ];
 
   return (
     <div className="bg-white">
@@ -67,9 +67,9 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
             </div>
           </div>
           <div className="md:w-1/2 lg:w-2/5 mt-10 md:mt-0 flex justify-center items-center">
-             <div className="relative w-[300px] h-[200px] md:w-[450px] md:h-[300px]">
-                <img src="https://picsum.photos/450/300?random=20" alt="Climate action" className="absolute w-full h-full object-cover rounded-lg shadow-2xl transform transition-all duration-500 hover:scale-105"/>
-             </div>
+            <div className="relative w-[300px] h-[200px] md:w-[450px] md:h-[300px]">
+              <img src="https://picsum.photos/450/300?random=20" alt="Climate action" className="absolute w-full h-full object-cover rounded-lg shadow-2xl transform transition-all duration-500 hover:scale-105" />
+            </div>
           </div>
         </div>
       </section>
@@ -107,7 +107,7 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="md:w-1/2">
-                <img src="https://picsum.photos/800/600?random=1" alt="Consultants in a meeting" className="rounded-lg shadow-2xl"/>
+                <img src="https://picsum.photos/800/600?random=1" alt="Consultants in a meeting" className="rounded-lg shadow-2xl" />
               </div>
               <div className="md:w-1/2">
                 <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-blue-dark">The Tanstrat Advantage</h2>
@@ -135,9 +135,9 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           </div>
         </section>
       </AnimatedSection>
-      
+
       {/* Testimonials Section */}
-      <AnimatedSection>
+      {/* <AnimatedSection>
         <section className="py-16 md:py-24 bg-white">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
@@ -160,7 +160,7 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
             </div>
           </div>
         </section>
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       {/* CTA Section */}
       <AnimatedSection>
