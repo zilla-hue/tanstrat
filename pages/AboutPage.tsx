@@ -30,7 +30,7 @@ const AboutPage: React.FC = () => {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <img src="https://picsum.photos/800/600?random=2" alt="Office collaboration" className="rounded-lg shadow-xl"/>
+                <img src="https://picsum.photos/800/600?random=2" alt="Office collaboration" className="rounded-lg shadow-xl" />
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const AboutPage: React.FC = () => {
       </AnimatedSection>
 
       {/* Meet the Team Section */}
-      <AnimatedSection>
+      {/* <AnimatedSection>
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
@@ -83,7 +83,7 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
         </section>
-      </AnimatedSection>
+      </AnimatedSection> */}
     </div>
   );
 };
