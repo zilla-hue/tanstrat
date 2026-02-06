@@ -78,9 +78,9 @@ const ContactPage: React.FC = () => {
               <div className="lg:w-1/3 lg:pl-10 lg:border-l lg:border-gray-200">
                 <h2 className="text-2xl font-display font-semibold text-brand-blue-dark mb-6">Contact Information</h2>
                 <div className="space-y-4 text-brand-gray-dark">
-                  <p><strong>Address:</strong><br/>123 Business Avenue, Suite 500<br/>New York, NY 10001, USA</p>
-                  <p><strong>Email:</strong><br/><a href="mailto:info@tanstrat.com" className="text-brand-teal hover:underline">info@tanstrat.com</a></p>
-                  <p><strong>Phone:</strong><br/><a href="tel:+11234567890" className="text-brand-teal hover:underline">(123) 456-7890</a></p>
+                  <p><strong>Address:</strong><br/>House 4, William’s street Utako</p>
+                  <p><strong>Email:</strong><br/><a href="mailto:contact@tanstratltd.com" className="text-brand-teal hover:underline">contact@tanstratltd.com</a></p>
+                  <p><strong>Phone:</strong><br/><a href="tel:+234803302930" className="text-brand-teal hover:underline">+234 803 302 930</a></p>
                 </div>
                 <div className="mt-8">
                   <h3 className="text-lg font-semibold text-brand-blue-dark">Our Location</h3>

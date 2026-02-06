@@ -59,10 +59,9 @@ const Footer: React.FC<FooterProps> = ({ navigate }) => {
           <div className="col-span-1">
             <h3 className="font-semibold tracking-wider text-gray-200 uppercase">Contact</h3>
             <ul className="mt-4 space-y-2 text-gray-300">
-              <li>123 Business Avenue</li>
-              <li>Suite 500, New York, NY 10001</li>
-              <li className="pt-2">info@tanstrat.com</li>
-              <li>(123) 456-7890</li>
+              <li>House 4 , William’s street Utako</li>
+              <li className="pt-2">Contact@tanstratltd.com</li>
+              <li>+234 803 302 930</li>
             </ul>
           </div>
           <div className="col-span-1">
