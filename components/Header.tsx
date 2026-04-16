@@ -10,9 +10,11 @@ interface HeaderProps {
 }
 
 const Logo = () => (
-  <div className="text-2xl font-display font-bold text-brand-blue-dark tracking-wide">
-    Tanstrat<span className="text-brand-teal">.</span>
-  </div>
+  <img
+    src="/images/tanstrat_logo.png"
+    alt="Tanstrat Logo"
+    className="h-10 w-auto object-contain"
+  />
 );
 
 const NavLink: React.FC<{

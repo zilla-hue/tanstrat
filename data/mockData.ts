@@ -6,7 +6,13 @@ export const teamMembers: TeamMember[] = [
     name: "Adekoya Oluwabukonlami Folorunsho",
     title: "Director",
     imageUrl: "/team/adekoya-folorunsho.jpg",
-    bio: "Details-oriented and highly analytical consultant with a track record of providing firms with strategic insights and solutions.",
+    bio: "Adekoya Oluwabukonlami is a results-driven Business Strategist at Tanstrat Ltd who partners with organizations across diverse industries to translate complex challenges into actionable strategic solutions. She leverages a highly analytical approach and global perspective to help firms optimize their operations and achieve sustainable growth. By blending rigorous problem-solving with a dedication to social impact, Adekoya ensures that every consulting engagement not only drives organizational success but also contributes meaningfully to the betterment of the broader business community.",
+  },
+  {
+    name: "Ambassador Gabriel Tanimu Aduda",
+    title: "Senior Advisor",
+    imageUrl: "/team/GTA.jpeg",
+    bio: "Ambassador Gabriel Aduda is a distinguished public sector executive and former Permanent Secretary who serves as a Strategic Consultant on the Tanstrat team, bringing over 25 years of expertise in driving national reforms, global diplomacy, and ethical governance across Nigeria and Africa. By bridging the gap between complex regulatory frameworks and high-impact business strategies, he provides Tanstrat's clients with unparalleled insights into institutional strengthening and strategic policy navigation. His commitment to ethical governance and citizen-centered service delivery ensures that Tanstrat's consulting solutions are not only commercially robust but also socially responsible and sustainable.",
   },
 ];
 
@@ -15,7 +21,7 @@ export const services: Service[] = [
     title: "Strategy & Operations",
     description:
       "We help leaders develop and execute winning strategies that deliver sustainable growth and operational excellence. Our approach connects high-level strategic vision with the practical realities of implementation, ensuring your goals are not only ambitious but also achievable.",
-    imageUrl: "https://picsum.photos/800/600?random=3",
+    imageUrl: "/images/strategy-meeting.jpg",
     details: [
       "Corporate & Business Unit Strategy",
       "Growth & Innovation",
@@ -28,7 +34,7 @@ export const services: Service[] = [
     title: "Digital Transformation",
     description:
       "In a world driven by technology, we guide organizations through the complexities of digital change. From data analytics to process automation, we help you build a more agile, intelligent, and customer-centric enterprise that is ready for the future.",
-    imageUrl: "https://picsum.photos/800/600?random=4",
+    imageUrl: "/images/digital-transformation.jpg",
     details: [
       "Digital Strategy & Roadmap",
       "Data Analytics & AI",
@@ -41,7 +47,7 @@ export const services: Service[] = [
     title: "Risk & Compliance",
     description:
       "We provide the expertise to help you anticipate and manage risk, navigate regulatory change, and operate with integrity. Our forward-looking approach helps you build resilience and protect your reputation in an uncertain world.",
-    imageUrl: "https://picsum.photos/800/600?random=5",
+    imageUrl: "/images/risk-compliance.jpg",
     details: [
       "Enterprise Risk Management",
       "Regulatory Compliance Advisory",
@@ -60,7 +66,7 @@ export const articles: Article[] = [
     date: "October 26, 2023",
     excerpt:
       "Artificial intelligence is no longer a futuristic concept; it's a present-day reality transforming industries. Discover how to integrate AI into your core strategy for a competitive edge.",
-    imageUrl: "https://picsum.photos/1200/600?random=6",
+    imageUrl: "/images/ai-enterprise.jpg",
     content: `Artificial intelligence (AI) is rapidly evolving from a niche technology to a fundamental driver of business value. Companies that successfully integrate AI into their core strategies will be the leaders of tomorrow. This isn't just about automating tasks; it's about reimagining business models, enhancing decision-making, and creating entirely new customer experiences.
     
     The first step is to identify high-impact use cases. Instead of a scattergun approach, focus on areas where AI can solve a critical business problem or unlock a significant opportunity. This could be anything from optimizing supply chains with predictive analytics to personalizing customer interactions with machine learning algorithms. The key is to align AI initiatives with strategic business objectives.
@@ -75,7 +81,7 @@ export const articles: Article[] = [
     date: "October 15, 2023",
     excerpt:
       "With regulatory landscapes shifting faster than ever, proactive compliance is key. We explore strategies to stay ahead of the curve and turn compliance into an advantage.",
-    imageUrl: "https://picsum.photos/1200/600?random=7",
+    imageUrl: "/images/regulatory-compliance.jpg",
     content: `In today's globalized and digitized economy, the regulatory landscape is in a constant state of flux. New rules around data privacy, financial crime, and environmental reporting are emerging at an unprecedented rate. For many organizations, compliance can feel like a moving target—a costly and complex burden. However, a forward-thinking approach can transform compliance from a defensive necessity into a strategic advantage.
     
     The key is to move from a reactive to a proactive stance. This involves continuous monitoring of the regulatory horizon to anticipate changes before they happen. Technology plays a crucial role here. Regulatory technology, or "RegTech," can automate compliance processes, improve reporting accuracy, and provide real-time insights into compliance risks. By leveraging these tools, organizations can reduce the manual effort involved in compliance and free up resources to focus on more strategic activities.
@@ -90,7 +96,7 @@ export const articles: Article[] = [
     date: "September 28, 2023",
     excerpt:
       "Recent global events have exposed vulnerabilities in traditional supply chains. Learn how to build a more agile, resilient, and sustainable supply network.",
-    imageUrl: "https://picsum.photos/1200/600?random=8",
+    imageUrl: "/images/supply-chain.jpg",
     content: `The disruptions of the past few years have served as a wake-up call for businesses worldwide. Lean, just-in-time supply chains, once lauded for their efficiency, have proven to be fragile in the face of geopolitical instability, climate events, and pandemics. The new imperative is resilience: the ability to anticipate, absorb, and adapt to disruptions without compromising customer service or financial performance.
     
     Building a resilient supply chain requires a multi-faceted approach. Diversification of suppliers and manufacturing locations is a critical first step to reduce dependence on any single region. Enhanced visibility, powered by IoT and blockchain, can provide real-time insights into the location and status of goods, enabling faster responses to potential bottlenecks.
@@ -105,7 +111,7 @@ export const articles: Article[] = [
     date: "September 12, 2023",
     excerpt:
       "Your data holds the key to understanding your customers better. We delve into the analytics techniques that can unlock profound insights and drive growth.",
-    imageUrl: "https://picsum.photos/1200/600?random=9",
+    imageUrl: "/images/data-analytics.jpg",
     content: `In the digital age, data is one of the most valuable assets a company possesses. Yet, many organizations are sitting on a treasure trove of customer data without knowing how to unlock its potential. The ability to collect, analyze, and act on this data is what separates market leaders from the laggards. Advanced data analytics allows you to move beyond simple historical reporting and start predicting customer behavior, personalizing experiences, and optimizing every touchpoint of the customer journey.
     
     Predictive analytics models, for example, can identify which customers are at risk of churning, allowing you to intervene with targeted retention offers. Machine learning algorithms can power recommendation engines that drive cross-selling and up-selling opportunities, significantly increasing customer lifetime value.

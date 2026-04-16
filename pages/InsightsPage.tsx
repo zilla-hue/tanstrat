@@ -12,7 +12,7 @@ interface InsightsPageProps {
 const ArticleCard: React.FC<{ article: Article, onSelectArticle: (article: Article) => void }> = ({ article, onSelectArticle }) => (
   <div className="bg-white group overflow-hidden flex flex-col">
     <div className="overflow-hidden">
-        <img src={article.imageUrl} alt={article.title} className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+        <img src={article.imageUrl} alt={article.title} loading="lazy" width={400} height={192} className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
     </div>
     <div className="p-6 border-l-4 border-brand-teal bg-brand-gray-light flex flex-col flex-grow">
       <p className="text-sm text-brand-blue font-medium uppercase tracking-wider">{article.category}</p>

@@ -11,17 +11,17 @@ interface HomePageProps {
 const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
   const services = [
     {
-      img: 'https://picsum.photos/800/600?random=31',
+      img: '/images/strategy-meeting.jpg',
       title: 'Strategy & Operations',
       description: 'We align your operations with your strategy to drive efficiency and growth.',
     },
     {
-      img: 'https://picsum.photos/800/600?random=32',
+      img: '/images/digital-transformation.jpg',
       title: 'Digital Transformation',
       description: 'Leverage technology to innovate, disrupt, and create new value.',
     },
     {
-      img: 'https://picsum.photos/800/600?random=33',
+      img: '/images/risk-compliance.jpg',
       title: 'Risk & Compliance',
       description: 'Navigate complex regulatory landscapes with confidence and integrity.',
     },
@@ -68,7 +68,7 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           </div>
           <div className="md:w-1/2 lg:w-2/5 mt-10 md:mt-0 flex justify-center items-center">
             <div className="relative w-[300px] h-[200px] md:w-[450px] md:h-[300px]">
-              <img src="https://picsum.photos/450/300?random=20" alt="Climate action" className="absolute w-full h-full object-cover rounded-lg shadow-2xl transform transition-all duration-500 hover:scale-105" />
+              <img src="/images/hero-leadership.jpg" alt="Confident Black business professional in modern corporate setting" loading="eager" width={450} height={300} className="absolute w-full h-full object-cover rounded-lg shadow-2xl transform transition-all duration-500 hover:scale-105" />
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
               {services.map((service, index) => (
                 <div key={index} className="bg-white group overflow-hidden">
                   <div className="overflow-hidden">
-                    <img src={service.img} alt={service.title} className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
+                    <img src={service.img} alt={service.title} loading="lazy" width={400} height={192} className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300" />
                   </div>
                   <div className="p-6 border-l-4 border-brand-teal bg-brand-gray-light">
                     <h3 className="mt-2 text-xl font-display font-semibold text-brand-blue-dark">{service.title}</h3>
@@ -107,7 +107,7 @@ const HomePage: React.FC<HomePageProps> = ({ navigate }) => {
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="md:w-1/2">
-                <img src="https://picsum.photos/800/600?random=1" alt="Consultants in a meeting" className="rounded-lg shadow-2xl" />
+                <img src="/images/consultants-meeting.jpg" alt="Black professionals collaborating in a strategy meeting" loading="lazy" width={800} height={600} className="rounded-lg shadow-2xl" />
               </div>
               <div className="md:w-1/2">
                 <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-blue-dark">The Tanstrat Advantage</h2>

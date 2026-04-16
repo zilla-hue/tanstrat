@@ -30,7 +30,7 @@ const AboutPage: React.FC = () => {
                 </p>
               </div>
               <div className="md:w-1/2">
-                <img src="https://picsum.photos/800/600?random=2" alt="Office collaboration" className="rounded-lg shadow-xl" />
+                <img src="/images/office-collaboration.jpg" alt="Black professional leading a collaborative team discussion" loading="lazy" width={800} height={600} className="rounded-lg shadow-xl" />
               </div>
             </div>
           </div>
@@ -64,26 +64,48 @@ const AboutPage: React.FC = () => {
       </AnimatedSection>
 
       {/* Meet the Team Section */}
-      {/* <AnimatedSection>
+      <AnimatedSection>
         <section className="py-16 md:py-24">
           <div className="container mx-auto px-6">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-display font-bold text-brand-blue">Our Leadership</h2>
               <p className="mt-2 text-lg text-brand-gray-dark max-w-2xl mx-auto">Meet the experienced professionals guiding our firm and our clients to success.</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {teamMembers.map(member => (
-                <div key={member.name} className="text-center">
-                  <img src={member.imageUrl} alt={member.name} className="w-full h-auto rounded-lg shadow-lg mb-4 aspect-square object-cover" />
-                  <h4 className="text-xl font-display font-semibold text-brand-blue">{member.name}</h4>
-                  <p className="text-brand-teal font-medium">{member.title}</p>
-                  <p className="mt-2 text-sm text-brand-gray-dark">{member.bio}</p>
+                <div
+                  key={member.name}
+                  className="group flex flex-col sm:flex-row gap-6 bg-white rounded-2xl shadow-md border border-gray-100 p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 cursor-default"
+                >
+                  {/* Portrait */}
+                  <div className="flex-shrink-0 w-full sm:w-36 md:w-40">
+                    <img
+                      src={member.imageUrl}
+                      alt={member.name}
+                      className="w-full sm:w-36 md:w-40 h-48 sm:h-full object-cover object-top rounded-xl shadow-md"
+                    />
+                  </div>
+
+                  {/* Content */}
+                  <div className="flex flex-col justify-between">
+                    <div>
+                      {/* Role badge */}
+                      <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wider uppercase rounded-full bg-brand-teal/10 text-brand-teal mb-3">
+                        {member.title}
+                      </span>
+                      <h4 className="text-xl font-display font-bold text-brand-blue-dark leading-snug">{member.name}</h4>
+                      <p className="mt-3 text-sm text-brand-gray-dark leading-relaxed">{member.bio}</p>
+                    </div>
+                    {/* Accent line */}
+                    <div className="mt-5 h-0.5 w-10 bg-brand-teal rounded-full transition-all duration-300 group-hover:w-20" />
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
-      </AnimatedSection> */}
+      </AnimatedSection>
+
     </div>
   );
 };

@@ -84,7 +84,7 @@ const ContactPage: React.FC = () => {
                 <div className="mt-8">
                   <h3 className="text-lg font-semibold text-brand-blue-dark">Our Location</h3>
                   <div className="mt-4 rounded-lg overflow-hidden shadow-md">
-                    <img src="https://picsum.photos/600/400?random=15" alt="Map to office" className="w-full h-auto object-cover"/>
+                    <img src="/images/office-location.jpg" alt="Tanstrat office location in Utako, Abuja" loading="lazy" width={600} height={400} className="w-full h-auto object-cover"/>
                   </div>
                 </div>
               </div>

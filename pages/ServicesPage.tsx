@@ -21,7 +21,7 @@ const ServiceSection: React.FC<{ service: Service, index: number }> = ({ service
     <div id={slug} className={`container mx-auto px-6 py-12 scroll-mt-32 ${index > 0 ? 'border-t border-brand-gray-medium' : ''}`}>
       <div className={`flex flex-col md:flex-row items-center gap-12 ${isReversed ? 'md:flex-row-reverse' : ''}`}>
         <div className="md:w-1/2">
-          <img src={service.imageUrl} alt={service.title} className="rounded-lg shadow-xl" />
+          <img src={service.imageUrl} alt={service.title} loading="lazy" width={800} height={600} className="rounded-lg shadow-xl" />
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl font-display font-bold text-brand-blue">{service.title}</h2>

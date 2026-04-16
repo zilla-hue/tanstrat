@@ -34,9 +34,11 @@ const Footer: React.FC<FooterProps> = ({ navigate }) => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
-            <h2 className="text-2xl font-display font-bold text-white tracking-wide">
-              Tanstrat<span className="text-brand-teal">.</span>
-            </h2>
+            <img
+              src="/images/tanstrat_logo.png"
+              alt="Tanstrat Logo"
+              className="h-10 w-auto object-contain brightness-0 invert"
+            />
             <p className="mt-4 text-sm text-gray-300">Strategic Clarity. Tangible Results.</p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="text-gray-300 hover:text-brand-teal transition-colors"><LinkedInIcon /></a>
