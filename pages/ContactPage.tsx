@@ -66,7 +66,7 @@ const ContactPage: React.FC = () => {
                       <textarea id="message" name="message" rows={5} value={formData.message} onChange={handleChange} placeholder="How can we help you?" required className="mt-1 block w-full px-4 py-3 bg-white border border-brand-gray-medium rounded-md shadow-sm placeholder-brand-gray-dark/50 focus:outline-none focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition-colors duration-200"></textarea>
                     </div>
                     <div className="mt-6">
-                      <button type="submit" disabled={status === 'submitting'} className="w-full px-8 py-3 bg-brand-blue text-white font-semibold rounded-full shadow-md hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed">
+                      <button type="submit" disabled={status === 'submitting'} className="w-full px-8 py-3 bg-brand-blue text-white font-semibold rounded-full shadow-md hover:bg-brand-blue/90 transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed">
                         {status === 'submitting' ? 'Submitting...' : 'Submit Message'}
                       </button>
                     </div>

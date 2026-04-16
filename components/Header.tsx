@@ -129,7 +129,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, navigate, onSearchClick })
                   navigate(Page.Contact);
                   setIsMenuOpen(false);
                 }}
-                className="mt-2 w-full px-5 py-2 bg-brand-teal text-white text-sm font-medium rounded-full shadow-md hover:bg-opacity-90 transition"
+                className="mt-2 w-full px-5 py-2 bg-brand-teal text-white text-sm font-medium rounded-full shadow-md hover:bg-brand-teal/90 transition"
               >
                 Contact Us
               </button>

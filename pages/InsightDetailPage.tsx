@@ -39,7 +39,7 @@ const InsightDetailPage: React.FC<InsightDetailPageProps> = ({ article, onBack }
             <div className="mt-16 text-center">
                <button 
                 onClick={onBack} 
-                className="px-8 py-3 bg-brand-teal text-white font-semibold rounded-full shadow-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105"
+                className="px-8 py-3 bg-brand-teal text-white font-semibold rounded-full shadow-lg hover:bg-brand-teal/90 transition-all duration-300 transform hover:scale-105"
                >
                  Back to All Insights
                </button>
